@@ -18,3 +18,7 @@ En este ejemplo se implementa la detección de objetos haciendo uso de Yolo. Est
 
 - **OPCIÓN 1**. Haciendo uso de DarkFlow. Esta opcion ofrece una mejor calidad pero una mayor complejidad en la instalación. [Notebook](https://github.com/itelligent-mrivas/Vision_artificial/blob/main/Deteccion_elementos_yolo.ipynb)
 - **OPCION 2**. Hacienndo uso de OpenCV, lo cual facilita enormemente la intalación. [Notebook](https://github.com/itelligent-mrivas/Vision_artificial/blob/main/deteccion%20de%20elementos_openCV.ipynb)
+
+### 2. Extraccion de *features* 
+
+En este ejemplo se implementa el código para la extraccion de *features* de alto nivel para imagenes haciendo uso de CNN.
