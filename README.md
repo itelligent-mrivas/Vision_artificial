@@ -10,6 +10,49 @@ Ademas de los Jupyter Notebook, se encuentra las siguientes carpetas:
 - `datasets`. Carpeta donde se leen los datos necesarios para los ejercicios
 - `salidas`. Carpeta donde se escriben las imagenes de salida
 
+## Paquetes necesarios
+
+A continuación se describirán los paquetes utilizados en los ejercicios, así como su proceso de instalación 
+
+### Tensor Flow
+
+Biblioteca de aprendizaje automático, que toman como base muchas otras de las que usaremos
+
+`conda install tensorflow`
+
+### Instalar keras
+
+Esta librería proporciona modelos de deep learning, entre ellos modelos preentrenados de CNN.
+
+`conda install keras`
+
+### Instalar PIL
+
+Biblioteca que proporciona funcionalidades para el procesamiento de imágenes
+
+`conda install pillow`
+
+### Open CV
+
+Biblioteca para el procesamiento de imágenes
+
+`conda install -c menpo opencv`
+
+### Darkflow
+
+Biblioteca para el uso de los modelos de YOLO.
+
+Para la instalación de esta biblioteca es necesaria su descarga desde github (https://github.com/thtrieu/darkflow), ya que no se encuentra disponible en ningún gestor de paquetes.
+
+Una vez descargado el proyecto se debe ir a la carpeta en la que se encuentra este y ejecutar:
+
+```
+	python setup.py build_ext --inplace
+    pip install -e .
+```
+
+También es necesario descargar los pesos de entrenamiento para YOLOv2 608x608 desde el siguiente enlace (https://pjreddie.com/darknet/yolov2/), colocando estos dentro de una carpeta llamada bin en la carpeta donde se tiene descargado Darkflow.
+
 ## Ejemplos
 
 ### 1. Detección de elementos
@@ -26,3 +69,5 @@ En este ejemplo se implementa el código para la extraccion de *features* de alt
 ### 3. Clasificación
 
 En este ejemplo se realiza un clasificador que permite detectar personas que llevan chaleco o no. Haciendo uso de las *features* extraidas.
+
+### 4. Ejercicio final
