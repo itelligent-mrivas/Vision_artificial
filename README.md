@@ -16,9 +16,9 @@ Ademas de los Jupyter Notebook, se encuentra las siguientes carpetas:
 
 En este ejemplo se implementa la detección de objetos haciendo uso de Yolo. Este ejercicio se ha realizado de dos formas distintas, que son:
 
-- **OPCIÓN 1**. Haciendo uso de DarkFlow. Esta opcion ofrece una mejor calidad pero una mayor complejidad en la instalación. [Notebook](https://github.com/itelligent-mrivas/Vision_artificial/blob/main/Deteccion_elementos_yolo.ipynb)
-- **OPCION 2**. Hacienndo uso de OpenCV, lo cual facilita enormemente la intalación. [Notebook](https://github.com/itelligent-mrivas/Vision_artificial/blob/main/deteccion%20de%20elementos_openCV.ipynb)
+- **OPCIÓN 1**. Haciendo uso de DarkFlow. Esta opcion ofrece una mejor calidad pero una mayor complejidad en la instalación. [Notebook](https://github.com/itelligent-mrivas/Vision_artificial/blob/main/1_1_Deteccion_elementos_yolo.ipynb)
+- **OPCION 2**. Hacienndo uso de OpenCV, lo cual facilita enormemente la intalación. [Notebook](https://github.com/itelligent-mrivas/Vision_artificial/blob/main/1_2_deteccion%20de%20elementos_openCV.ipynb)
 
 ### 2. Extraccion de *features* 
 
-En este ejemplo se implementa el código para la extraccion de *features* de alto nivel para imagenes haciendo uso de CNN.
+En este ejemplo se implementa el código para la extraccion de *features* de alto nivel para imágenes haciendo uso de CNN.
