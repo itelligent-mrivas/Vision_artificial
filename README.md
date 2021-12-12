@@ -22,3 +22,7 @@ En este ejemplo se implementa la detección de objetos haciendo uso de Yolo. Est
 ### 2. Extraccion de *features* 
 
 En este ejemplo se implementa el código para la extraccion de *features* de alto nivel para imágenes haciendo uso de CNN.
+
+### 3. Clasificación
+
+En este ejemplo se realiza un clasificador que permite detectar personas que llevan chaleco o no. Haciendo uso de las *features* extraidas.
