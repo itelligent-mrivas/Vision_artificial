@@ -47,8 +47,8 @@ Para la instalación de esta biblioteca es necesaria su descarga desde github (h
 Una vez descargado el proyecto se debe ir a la carpeta en la que se encuentra este y ejecutar:
 
 ```
-	python setup.py build_ext --inplace
-    pip install -e .
+python setup.py build_ext --inplace
+pip install -e .
 ```
 
 También es necesario descargar los pesos de entrenamiento para YOLOv2 608x608 desde el siguiente enlace (https://pjreddie.com/darknet/yolov2/), colocando estos dentro de una carpeta llamada bin en la carpeta donde se tiene descargado Darkflow.
