@@ -71,3 +71,5 @@ En este ejemplo se implementa el código para la extraccion de *features* de alt
 En este ejemplo se realiza un clasificador que permite detectar personas que llevan chaleco o no. Haciendo uso de las *features* extraidas.
 
 ### 4. Ejercicio final
+
+En este ejeericio se realiza un ejmeplo de reocmendacion usando extraccion de features mediante CNN.
